@@ -1908,7 +1908,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 .btn {
   background: transparent;
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.6);
   margin-top: 16px; /* move button slightly down */
   text-decoration: none;
 }
