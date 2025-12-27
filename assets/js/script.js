@@ -158,8 +158,27 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-document.querySelectorAll('[data-stop-propagation]').forEach(link => {
-  link.addEventListener('click', function (event) {
-    event.stopPropagation();
+// add click event to all modal items (ALLOW LINKS)
+for (let i = 0; i < testimonialsItem.length; i++) {
+
+  testimonialsItem[i].addEventListener("click", function (event) {
+
+    // allow certificate links to open normally
+    if (
+      event.target.closest("a") ||
+      event.target.hasAttribute("data-stop-propagation")
+    ) {
+      event.stopPropagation();
+      return;
+    }
+
+    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
+    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+
+    testimonialsModalFunc();
+
   });
-});
+
+}
