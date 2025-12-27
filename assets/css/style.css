@@ -1901,12 +1901,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /* Resume button – clean outline style */
 .btn {
+  display: inline-flex;          /* key fix */
+  align-items: center;           /* vertical alignment */
+  gap: 8px;                      /* space between icon & text */
   background: transparent;
   color: #ffffff;
-  margin-top: 16px; /* move button slightly down */
+  margin-top: 16px;
   text-decoration: none;
+  transition: all 0.25s ease;
 }
-
+.btn ion-icon {
+  font-size: 1.1rem;
+}
 .btn:hover {
   background: rgba(16, 185, 129, 0.15); /* green glow */
   color: #10b981;                       /* green text */
