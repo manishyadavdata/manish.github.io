@@ -1908,10 +1908,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: #ffffff;
+  background: rgba(16, 185, 129, 0.15); /* green glow */
+  color: #10b981;                       /* green text */
+  border-color: #10b981;
 }
-
+.btn {
+  transition: all 0.25s ease;
+}
 /* Certification enhancements */
 
 .verified-tag {
