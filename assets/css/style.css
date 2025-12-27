@@ -1924,19 +1924,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   vertical-align: middle;
 }
 
-.cert-link {
-  display: inline-block;
-  margin-top: 8px;
-  color: #ffffff;
-  font-size: 0.9rem;
-  text-decoration: none;
-  opacity: 0.9;
-}
-
-.cert-link:hover {
-  text-decoration: underline;
-  opacity: 1;
-}
 
 .cert-year {
   display: block;
@@ -1945,11 +1932,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   opacity: 0.6;
 }
 
-.testimonials-item a {
-  pointer-events: auto;
-  position: relative;
-  z-index: 10;
-}
+
 /* ===============================
    Certification Click Fix
    =============================== */
@@ -1958,16 +1941,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   pointer-events: none;
 }
 
-.cert-link {
-  position: relative;
-  z-index: 20;
-  pointer-events: auto;
-  cursor: pointer;
-}
 
-.testimonials-item a {
-  pointer-events: auto;
-}
 .cert-cta {
   display: inline-flex;
   align-items: center;
