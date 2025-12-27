@@ -1988,3 +1988,13 @@ article.active {
   opacity: 1;
   transform: translateY(0);
 }
+/* ===============================
+   Sidebar email wrapping fix
+   =============================== */
+
+.sidebar .contact-link {
+  white-space: normal;        /* allow line breaks */
+  word-break: break-word;     /* break long email */
+  overflow-wrap: anywhere;    /* ensure full visibility */
+  line-height: 1.4;
+}
