@@ -1231,6 +1231,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   box-shadow: var(--shadow-3);
   z-index: 1;
   transition: var(--transition-1);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+
 }
 
 
@@ -2197,7 +2199,7 @@ article.active {
   filter: grayscale(1) brightness(0.9);
 }
 
-.clients-item img: hover {
+.clients-item img:hover {
   filter: grayscale(0);
 }
 
@@ -2210,13 +2212,3 @@ article.active {
   padding: 24px;
   border-radius: 18px;
 }
-.form-btn {
-  background: var(--bg-gradient-yellow-1);
-  color: var(--smoky-black);
-  font-weight: var(--fw-600);
-}
-
-.form-btn:hover {
-  background: var(--bg-gradient-yellow-2);
-}
-
