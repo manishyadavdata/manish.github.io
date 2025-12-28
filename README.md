@@ -62,11 +62,11 @@ decision-making**.
 🌐 Live Demo
 
 🔗 Portfolio Website:
-https://manish-gituser.github.io/manish.github.io
+https://manishyadavdata.github.io/manish.github.io/
 
 
 📬 Contact
 
 Email: manishkumar.gs04@gmail.com
-LinkedIn: https://www.linkedin.com/in/your-linkedin-username
-GitHub: https://github.com/your-github-username
+LinkedIn: https://www.linkedin.com/in/manishyadavde/
+GitHub: https://github.com/manishyadavdata
